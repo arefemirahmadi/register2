@@ -1,0 +1,114 @@
+@import 'reset.css';
+@font-face {
+    font-family: vazirNormal;
+    src: url('fonts/vazir.eot');
+    src: url('fonts/vazir.eot?#iefix') 
+    format('embedded-opentype'),
+     url('fonts/vazir.woff2') 
+     format('woff2'),
+      url('fonts/vazir.woff') 
+      format('woff'),
+       url('fonts/vazir.ttf')
+        format('truetype');
+    font-weight: normal;
+    font-display: swap;
+}
+body,input,button{
+    font-family: vazirNormal ;
+}
+body{
+   background: url('images/kaboompics_Fresh\ baked\ blueberry\ pie\ &\ cup\ of\ coffee\ \(5\).jpg');
+   background-size: cover;
+   direction: rtl;
+}
+*{
+    box-sizing:border-box;
+}
+h2{
+margin: 15px;
+
+}
+#register {
+    width:800px;
+    height: 450px;
+    margin:70px auto;
+    border-radius: 20px;
+
+   
+}
+#register .left {
+    
+     background: rgba(190, 190, 189, 0.8); 
+    width: 400px;
+    float: left;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+     /* opacity: 4px;  */
+}
+#register .right {
+ 
+    background: rgba(255, 255, 255, 0.8); 
+border-color: black;
+    width: 400px;
+    float: right;
+    height: 100%;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+
+}
+#register .left .signup-btn {
+    text-decoration:none;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    color:#000;
+   
+    border:1px solid #fff;
+    padding:5px 25px;
+   display: inline-block;
+    border-radius: 5px;
+     /* float: inline-end;  */
+     margin: 100px 50px 0px 50px;    
+    
+}
+#register .left .signup-btn:hover{
+    background-color:rgb(243, 239, 239);
+    color:#000;
+    border:2px solid rgb(243, 239, 239);
+    box-shadow: 5px 10px 10px gray;
+    
+}
+#register .right .signup-btn:hover{
+    background-color:rgb(156, 156, 155);
+    color: #000;
+    border:2px solid rgb(156, 156, 155);
+    box-shadow: 5px 10px 10px gray;
+}
+#register .right .signup-btn {
+    text-decoration: none;
+   background-color:rgb(190, 190, 189);
+    color:#000;
+    border:1px solid rgb(190,190,189);
+    padding:5px 25px;
+   display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+    /* float:inline-end; */
+    margin: 275px -100px 0px 100px;}
+#register .right .input{
+float: right;
+margin: 15px;
+padding: 5px;
+}
+#register .left .input{
+    float: right;
+    margin: 25px; 
+    padding: 5px;
+}
+.input:focus{
+    box-shadow: 5px 10px 10px gray;
+border: none;
+}
